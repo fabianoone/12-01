@@ -1,0 +1,1 @@
+"undefined"==typeof PDFJS&&(("undefined"!=typeof window?window:this).PDFJS={}),function e(){"use strict"}.call("undefined"==typeof window?this:window),PDFJS.workerSrc||"undefined"==typeof document||(PDFJS.workerSrc=function(){"use strict";var e=document.body||document.getElementsByTagName("head")[0],n=e.lastChild.src;return n&&n.replace(/\.js$/i,".worker.js")}());

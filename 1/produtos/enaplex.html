@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel='stylesheet' href='../css/font-awesome.min.css'/>
+        <script src="../js/jquery-2.1.0.min.js"></script>
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/blocs.js"></script>
+        <script src="../js/site.js"></script>
+
+        <!-- Js files Lea app -->
+        <script src="../js/jquery.touchwipe.min.js"></script>
+        <script src="../js/jquery.doubletap.js"></script>
+        <script type="application/javascript" src="../js/functions.js"></script>
+        <script type="application/javascript" src="../js/circle.js"></script>
+        <script type="application/javascript" src="../js/JSBridge.js"></script>
+        <script type="application/javascript" src="../js/ruler.js"></script>
+        <!--/ End Js files Lea app -->
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#pesquisa").focus(function () {
+                    $(".dropdown-menu").css("display", "inline");
+                });
+            });
+
+            /*-- Toggle Menu --*/
+            $(function () {
+
+                $('#slide-submenu').on('click', function () {
+                    $(this).closest('.list-group').fadeOut('slide', function () {
+                        $('.mini-submenu').fadeIn();
+                    });
+
+                });
+
+                $('.mini-submenu').on('click', function () {
+                    $(this).next('.list-group').toggle('slide');
+                    $('.mini-submenu').hide();
+                });
+                $('#catalago').on('click', function () {
+                    $('#boxxx').toggle('slide');
+                    $('.mini-submenu').hide();
+                });
+            });
+            /*-- Fim Toggle Menu --*/
+
+
+        </script>
+        <style>
+            #navegacao-direita {
+                position: fixed;
+                top: 40px;
+            }
+        </style>
+        <title>Pharlab | Produtos</title>
+    </head>
+    <body>
+        <div id="msg">
+            <h1>Para navegar use o iPad em orientação Landscape.</h1>
+        </div>
+        <!-- Main container -->
+        <div class="page-container">
+
+            <!-- Hero Bloc -->
+            <div id="hero-bloc" class="site-hero bloc hero bgc-white bg-bg1-artritec d-bloc">
+                <div class="container bloc-sm hero-nav">
+                    <nav class="navbar row">    
+                        <div class="row">
+                            <div id="back-link" class="col-sm-1">
+                                <a class="back-link-btn" href="javascript: history.go(-1);" style="display: block;cursor: pointer;float: left;">
+                                    <span class="back-link-btn fa fa-arrow-circle-o-left"></span>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 col-md-3 sidebar">
+                                <div class="mini-submenu">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </div>
+                                <div id="boxxx" class="list-group menu-box">
+                                    <span class="list-group-item active">
+                                        Título da aba
+                                        <span class="pull-right" id="slide-submenu">
+                                            <i class="fa fa-times"></i>
+                                        </span>
+                                    </span>
+                                  <div id="header_menu" class="produtos">
+                    <a href="./artritec.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Artritec
+                    </a>
+                    <a href="./atenolol.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Atenolol
+                    </a>
+                    <a href="./azitrophar.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Azitrophar
+                    </a>
+                    <a href="./besilato_anlodipino.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Besilato de Anlodipino
+                    </a>
+                    <a href="./biproslam.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Biproslam
+                    </a>
+                    <a href="./bromidrato_citalopram.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Bromidrato de Citalopram
+                    </a>
+                    <a href="./captosen.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Captosen
+                    </a>
+                    <a href="./cloridrato_ciprofloxacino.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Cloridrato de Ciprofloxacino
+                    </a>
+                    <a href="./cloridrato_metformina.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Cloridrato de Metformina
+                    </a>
+                    <a href="./cloridrato_paroxetina.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Cloridrato de Paroxetina
+                    </a>
+                    <a href="./cloridrato_propanolol.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Cloridrato de Propanolol
+                    </a>
+                    <a href="./cloridrato_sertralina.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Cloridrato de Sertralina
+                    </a>
+                    <a href="./cortidex.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Cortidex
+                    </a>
+                    <a href="./decnazol.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Decnazol
+                    </a>
+                    <a href="./dermovat.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Dermovat
+                    </a>
+                    <a href="./diclofenaco_dietilamônio.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Diclofenaco Dietilamônio
+                    </a>
+                    <a href="./digoxina.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Digoxina
+                    </a>
+                    <a href="./doxiclin.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Doxiclin
+                    </a>
+                    <a href="./elcrodrixDC.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Elcodrix DC
+                    </a>
+                    <a href="./elprazol.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Elprazol
+                    </a>
+                    <a href="./enaplex.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Produto 03 Lorem ipsum
+                    </a>
+                    <a href="./escopen.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Escopen
+                    </a>
+                    <a href="./farmaflan.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Famaflan
+                    </a>
+                    <a href="./farmicina.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Farmicina
+                    </a>
+                    <a href="./farmoxicam.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Farmoxicam
+                    </a>
+                    <a href="./fenaflex-odc.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Fenaflex ODC
+                    </a>
+                    <a href="./glimepirida.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Glimepirida
+                    </a>
+                    <a href="./hervirax.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Hervirax
+                    </a>
+                    <a href="./Hidroless.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Hidroless
+                    </a>
+                    <a href="./izonax_creme.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Izonax Creme
+                    </a>
+                    <a href="./izonax.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Izonax
+                    </a>
+                    <a href="./labcaina.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Labcaína
+                    </a>
+                    <a href="./mal_dexclorfeniramina.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Maleato de Dexclorfeniramina
+                    </a>
+                    <a href="./nebactrina.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Nebactrina
+                    </a>
+                    <a href="./nistatina.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Nistatina
+                    </a>
+                    <a href="./pantoprazol.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Pantoprazol
+                    </a>
+                    <a href="./paracetamol.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Paracetamol
+                    </a>
+                    <a href="./pasta-d-agua.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Pasta D'água
+                    </a>
+                    <a href="./pasta-dagua-calamina.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Pasta D'água Calamina
+                    </a>
+                    <a href="./pasta-dagua-mentolada.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Pasta D'água Mentolada
+                    </a>
+                    <a href="./tricortid.html" class="list-group-item">
+                        <i class="fa fa-caret-right"></i> Pasta Tricortid
+                    </a>
+                    
+                </div>
+                                </div>
+                            </div>
+
+                        </div><!-- sidebar -->
+
+                        <div class="collapse navbar-collapse">
+                            <ul id="navegacao-direita" class="site-navigation nav navbar-nav">
+                                <li>
+                                    <span  onclick="showDoc('tabela de preços/Enaplex.pdf');" class="top-menu-cifra img-circle"></span>
+                                </li>
+                                <li>
+                                    <span onclick="alert('Aguardo envio de material Mercado de cada Produto');" class="top-menu-mercado"></span>
+                                </li>
+                                <li>
+                                    <span onclick="showDoc('Artritec_Bula_Paciente.pdf');" class="top-menu-bula"></span>	
+                                </li>
+                                <li>
+                                    <span onclick="javascript:;window.location.href = '../1.html';" class="top-menu-menu-principal"></span>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <!-- Conteudo -->	
+                <div class="container">
+                    <div class="center-block container col-md-5">
+                        <h1 class="site-zero-margin cor-h1 col-sm-offset-1">Enaplex</h1>
+                        <h2 class="site-zero-margin cor-txt col-sm-offset-1">Maleato de Enalapril</h2>
+                        <div class="site-margin-top-5 site-zero-padding col-md-12">
+                            <p class="cor-span"><span>Referência:</span></p>
+                            <h3 class="cor-h3 text-uppercase">RENITEC  <small class="cor-txt">- MSD</small></h3>
+                            <ul class="list-unstyled">
+                                <li class="cor-h3"><strong>Apresentações:</strong></li>
+                                <li class="cor-txt">10 mg</li>
+                                <li class="cor-txt">20 mg</li>
+                                <li class="cor-txt">Caixas com 30 comprimidos</li>
+                                <li></li>
+                                <li class="site-margin-top-5 cor-txt"><img src="../img/produtos/comprimidoBesilato.png" alt="" style="width: 12%;"></li>
+                                <li class=""></li>
+                            </ul>
+
+                            <div class="site-media media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object" src="../img/produtos/caixa.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="cor-txt media-body">     
+                                    <p>Caixa de embarque</p>
+                                    <p>Contendo <strong>225 caixas</strong></p>
+                                    <p>do medicamento</p>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-md-7 site-zero-padding">
+                        <img class="pull-right" alt="" src="../produtos/Enaplex.png">
+                        <div class="col-sm-7"><p class="col-md-offset-3 cor-txt text-left">EAN 7898216360215</p> </div>
+                        <div class="col-sm-5"><p class="col-md-offset-1 cor-txt text-left">EAN 7898216360222</p></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <p class="cor-txt"><strong>Indicação:</strong></p> 
+                            <p id="indicacao" class="cor-txt">
+                                Tratamento da hipertensão arterial em todos os graus, hipertensão renovascular e da insuficiência cardíaca.
+                            </p>
+                        </div>
+                        <div class="col-md-2">
+                            <br>
+                            <img src="../img/produtos/farmaciaPopular.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero Bloc END -->
+        </div>
+        <!-- Main container END -->
+
+    </body>
+
+    <!-- Google Analytics -->
+
+    <!-- Google Analytics END -->
+
+</html>
+
+
