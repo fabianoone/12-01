@@ -14,9 +14,9 @@ var env_Browse_Directory = "" ;
 var separator = "_"; //Ca sera le séparateur à changer
 
 function fileListNouveautes(){
-    fctBrowseDirectory("nouveautes") ;
+    fctBrowseDirectory("novidades") ;
     var html = "";
-    if (env_Browse_Directory == 'Dossier non trouvé'){
+    if (env_Browse_Directory == 'Arquivo não encontrado'){
     }
     else{
         var jsonRetour = decodeURI(env_Browse_Directory) ;
@@ -24,7 +24,7 @@ function fileListNouveautes(){
         for(var i = 0 ; i < jsArray.FILES.length ; i++){
             var fileName = jsArray.FILES[i].FILE;
             var fileNameSplitted = fileName.split(separator);
-            html += "<li onClick=\"showDoc('nouveautes/"+encodeURI(fileName)+"')\"><span class=\"title\">"+fileNameSplitted[0]+"</span>&nbsp;&nbsp;<span class=\"subtitle\">"+fileNameSplitted[1].replace(".pdf","")+"</span></li>";
+            html += "<li onClick=\"showDoc('novidades/"+encodeURI(fileName)+"')\"><span class=\"title\">"+fileNameSplitted[0]+"</span>&nbsp;&nbsp;<span class=\"subtitle\">"+fileNameSplitted[1].replace(".pdf","")+"</span></li>";
             //listing.push(new File(fileNameSplitted[0],fileNameSplitted[1]),fileName);
         }
     }
@@ -33,9 +33,9 @@ function fileListNouveautes(){
 }
 
 function fileListProduits(){
-    fctBrowseDirectory("produits_lancement") ;
+    fctBrowseDirectory("produtos_lancamento") ;
     var html = "";
-    if (env_Browse_Directory == 'Dossier non trouvé'){
+    if (env_Browse_Directory == 'Arquivo não encontrado'){
     }
     else{
         var jsonRetour = decodeURI(env_Browse_Directory) ;
@@ -43,7 +43,7 @@ function fileListProduits(){
         for(var i = 0 ; i < jsArray.FILES.length ; i++){
             var fileName = jsArray.FILES[i].FILE;
             var fileNameSplitted = fileName.split(separator);
-            html += "<li onClick=\"showDoc('produits_lancement/"+encodeURI(fileName)+"')\"><span class=\"title\">"+fileNameSplitted[0]+"</span>&nbsp;&nbsp;<span class=\"subtitle\">"+fileNameSplitted[1].replace(".pdf","")+"</span></li>";
+            html += "<li onClick=\"showDoc('produtos_lancamento/"+encodeURI(fileName)+"')\"><span class=\"title\">"+fileNameSplitted[0]+"</span>&nbsp;&nbsp;<span class=\"subtitle\">"+fileNameSplitted[1].replace(".pdf","")+"</span></li>";
             //listing.push(new File(fileNameSplitted[0],fileNameSplitted[1]),fileName);
         }
     }
