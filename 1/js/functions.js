@@ -50,7 +50,10 @@ function fileListProduits(){
 
     $("#produits-list").html(html);
 }
-
+function showDoc2()
+{
+    alert('showDoc2');
+}
 function showDoc(path){
     fctOpenDocument(path);
 }

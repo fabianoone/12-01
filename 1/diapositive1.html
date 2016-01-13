@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-    <link rel="stylesheet" id="ppstyle" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel='stylesheet' href='./css/font-awesome.min.css'/>
-    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="./css/popup.css">
 	
     <script src="./js/jquery-2.1.0.min.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/blocs.js"></script>
-    <script src="js/site.js"></script>
+<!--    <script src="./js/site.js"></script>-->
        
 
     <!-- Js files Lea app -->
@@ -28,55 +28,7 @@
     <!--/ End Js files Lea app -->  
     
    <script>
-        $(document).ready(function(){
-            $(".slidingDiv").hide();
-            $(".show_hide").show();
-
-            $('.show_hide').click(function(){
-            $(".slidingDiv").slideToggle();
-            });
-        });
-
-         $(document).ready(function(){
-            $("#pesquisa").focus(function(){
-                $(".dropdown-menu").css("display", "inline");
-            });
-
-        
-        // Pdf Link 
-            $('.pdflink').click(function(){
-                    //$('#iframe').attr('src','');
-                    var pdf_doc = $(this).attr('title');
-                    $('#iframe').attr('src',pdf_doc);
-            })
-
-            $('.close, #myModal').click(function(){
-                    $('#iframe').attr('src','');
-                })
-            })
-        
-    
-        
-        /*-- Toggle Menu --*/
-        $(function(){
-
-            $('#slide-submenu').on('click',function() {			        
-                $(this).closest('.list-group').fadeOut('slide',function(){
-                    $('.mini-submenu').fadeIn();	
-                });
-
-              });
-
-            $('.mini-submenu').on('click',function(){
-                $('#boxxx').toggle('slide');
-                $('.mini-submenu').hide();
-            });
-            $('#catalago').on('click',function(){		
-                $('#boxxx').toggle('slide');
-                $('.mini-submenu').hide();
-            });
-        });
-        /*-- Fim Toggle Menu --*/
+       
         
     </script>
     
