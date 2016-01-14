@@ -7,6 +7,11 @@ body {
     font-family: 'FrutigerLTStdBoldCn' !important;
 }
 
+
+div#appMenu {
+	margin: 0;
+	padding: 0;
+}
  @media only screen and (orientation:portrait){
     html body * {
          display:none;
@@ -164,7 +169,7 @@ input#pesquisa {
 /* Sizes */
 
 .bloc-sm{
-	padding:20px 50px;
+	padding:0px 50px;
 }
 
 #indicacao {
@@ -285,14 +290,42 @@ input#pesquisa {
 #hero-bloc h3{
 	font-size:30px;
 }
+	 #nouveautes-list-container{
+		 left:0px;
+		 top:0px;
+		 width:323px;
+		 height:249px;
+		 position:absolute;
+	 }
 
+	 #produits-list-container{
+		 left:0px;
+		 top:249px;
+		 width:323px;
+		 height:249px;
+		 position:absolute;
+	 }
+
+	 #nouveautes-list{
+		 list-style-type:none;
+		 margin:0;
+		 padding:0;
+		 height:204px;
+		 overflow:scroll;
+		 -webkit-overflow-scrolling:touch;
+	 }
 /* = NavBar
 -------------------------------------------------------------- */
-#back-link {
+
+ #navegacao-direita {
+	 position: fixed;
+	 top: 40px;
+ }
+ #back-link {
     padding-right: 50px;
     width: 4%;
     margin-left: 20px;
-    margin-top: 2%;
+    margin-top: 3.5%;
 }
 .back-link-btn {
     color:#0f3b7c; 
@@ -551,6 +584,21 @@ a.list-group-item:hover {
     color: #054686;
     font-weight: 500;
 }
+
+.anun-title {
+	color: #054686 !important;
+	font-weight: 700;
+	font-family: 'FrutigerLTStdBoldCn';
+	font-size: 2em;
+	padding-bottom: 0;
+}
+.anun-subtitle {
+	color: #054686 !important;
+	font-family: 'FrutigerLTStdBoldCn';
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
 .menu-button {
     color: #fff;
     border-radius: 50%;
@@ -631,14 +679,14 @@ a.list-group-item:hover {
     display: block;
     cursor: pointer;
 }
-.menu-icon-inst:active{
-    background: url(../img/icons/institucional_hover.png);
-    height: 120px;
-    width: 120px;
-    display: block;
-    cursor: pointer;
+/*.menu-icon-inst:active{*/
+    /*background: url(../img/icons/institucional_hover.png);*/
+    /*height: 120px;*/
+    /*width: 120px;*/
+    /*display: block;*/
+    /*cursor: pointer;*/
 
-}
+/*}*/
 /*.menu-icon-inst:hover{
     background: url(../img/icons/institucional_hover.png);
     height: 120px;

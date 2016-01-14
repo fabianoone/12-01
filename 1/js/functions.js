@@ -225,7 +225,6 @@ function swipe_event(move){
 }
 
 
-
 function init_body(){
      $('#slide').append('<div id="'+currID+'" class="slide" style="position:absolute;"></div>');
     clientSideInclude(currID,"1.html");
