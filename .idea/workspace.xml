@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00a3645c-1888-48cb-bcb0-7cadbffb8191" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/1.html" afterPath="$PROJECT_DIR$/1/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/Hidroless.html" afterPath="$PROJECT_DIR$/1/produtos/Hidroless.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/_Produto-Pharlab.html" afterPath="$PROJECT_DIR$/1/produtos/_Produto-Pharlab.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/anuncios.html" afterPath="$PROJECT_DIR$/1/anuncios.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/artritec.html" afterPath="$PROJECT_DIR$/1/produtos/artritec.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/atenolol.html" afterPath="$PROJECT_DIR$/1/produtos/atenolol.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/azitrophar.html" afterPath="$PROJECT_DIR$/1/produtos/azitrophar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/besilato_anlodipino.html" afterPath="$PROJECT_DIR$/1/produtos/besilato_anlodipino.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/biproslam.html" afterPath="$PROJECT_DIR$/1/produtos/biproslam.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/bromidrato_citalopram.html" afterPath="$PROJECT_DIR$/1/produtos/bromidrato_citalopram.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/captosen.html" afterPath="$PROJECT_DIR$/1/produtos/captosen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/cloridrato_ciprofloxacino.html" afterPath="$PROJECT_DIR$/1/produtos/cloridrato_ciprofloxacino.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/cloridrato_metformina.html" afterPath="$PROJECT_DIR$/1/produtos/cloridrato_metformina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/cloridrato_paroxetina.html" afterPath="$PROJECT_DIR$/1/produtos/cloridrato_paroxetina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/cloridrato_propanolol.html" afterPath="$PROJECT_DIR$/1/produtos/cloridrato_propanolol.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/cloridrato_sertralina.html" afterPath="$PROJECT_DIR$/1/produtos/cloridrato_sertralina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/cortidex.html" afterPath="$PROJECT_DIR$/1/produtos/cortidex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/decnazol.html" afterPath="$PROJECT_DIR$/1/produtos/decnazol.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/dermovat.html" afterPath="$PROJECT_DIR$/1/produtos/dermovat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/diapositive1.html" afterPath="$PROJECT_DIR$/1/diapositive1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/diclofenaco_dietilamônio.html" afterPath="$PROJECT_DIR$/1/produtos/diclofenaco_dietilamônio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/digoxina.html" afterPath="$PROJECT_DIR$/1/produtos/digoxina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/doxiclin.html" afterPath="$PROJECT_DIR$/1/produtos/doxiclin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/elcrodrixDC.html" afterPath="$PROJECT_DIR$/1/produtos/elcrodrixDC.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/elprazol.html" afterPath="$PROJECT_DIR$/1/produtos/elprazol.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/enaplex.html" afterPath="$PROJECT_DIR$/1/produtos/enaplex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/escopen.html" afterPath="$PROJECT_DIR$/1/produtos/escopen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/farmaflan.html" afterPath="$PROJECT_DIR$/1/produtos/farmaflan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/farmicina.html" afterPath="$PROJECT_DIR$/1/produtos/farmicina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/farmoxicam.html" afterPath="$PROJECT_DIR$/1/produtos/farmoxicam.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/fenaflex-odc.html" afterPath="$PROJECT_DIR$/1/produtos/fenaflex-odc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/js/functions.js" afterPath="$PROJECT_DIR$/1/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/glimepirida.html" afterPath="$PROJECT_DIR$/1/produtos/glimepirida.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/hervirax.html" afterPath="$PROJECT_DIR$/1/produtos/hervirax.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/izonax.html" afterPath="$PROJECT_DIR$/1/produtos/izonax.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/izonax_creme.html" afterPath="$PROJECT_DIR$/1/produtos/izonax_creme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/labcaina.html" afterPath="$PROJECT_DIR$/1/produtos/labcaina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/mal_dexclorfeniramina.html" afterPath="$PROJECT_DIR$/1/produtos/mal_dexclorfeniramina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/navegacao.html" afterPath="$PROJECT_DIR$/1/navegacao.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/nebactrina.html" afterPath="$PROJECT_DIR$/1/produtos/nebactrina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/nistatina.html" afterPath="$PROJECT_DIR$/1/produtos/nistatina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/pantoprazol.html" afterPath="$PROJECT_DIR$/1/produtos/pantoprazol.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/paracetamol.html" afterPath="$PROJECT_DIR$/1/produtos/paracetamol.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/pasta-d-agua.html" afterPath="$PROJECT_DIR$/1/produtos/pasta-d-agua.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/pasta-dagua-calamina.html" afterPath="$PROJECT_DIR$/1/produtos/pasta-dagua-calamina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/pasta-dagua-mentolada.html" afterPath="$PROJECT_DIR$/1/produtos/pasta-dagua-mentolada.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/js/site.js" afterPath="$PROJECT_DIR$/1/js/site.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/css/style.css" afterPath="$PROJECT_DIR$/1/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/produtos/tricortid.html" afterPath="$PROJECT_DIR$/1/produtos/tricortid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="00a3645c-1888-48cb-bcb0-7cadbffb8191" name="Default" comment="" />
     <ignored path="12-01.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -396,7 +345,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3343983" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19812304" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19812304" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -706,14 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1/produtos/farmoxicam.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.291667">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1/produtos/fenaflex-odc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.291667">
@@ -829,6 +770,14 @@
     <entry file="file://$PROJECT_DIR$/1/produtos/tricortid.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33258173">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/produtos/farmoxicam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1860203">
           <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
           <folding />
         </state>
