@@ -21,16 +21,37 @@ function fileListNouveautes(){
     }
     else{
         var jsonRetour = decodeURI(env_Browse_Directory) ;
-        var jsArray = JSON.stringify(jsonRetour);
-        alert(jsArray);
+        var jsArray = JSON.parse(jsonRetour);
         for(var i = 0 ; i < jsArray.FILES.length ; i++){
             var fileName = jsArray.FILES[i].FILE;
             var fileNameSplitted = fileName.split(separator);
-            html += "<li onClick=\"showDoc('anuncios/"+encodeURI(fileName)+"')\"><span class=\"title\">"+fileNameSplitted[0]+"</span>&nbsp;&nbsp;<span class=\"subtitle\">"+fileNameSplitted[1].replace(".pdf","")+"</span></li>";
+            html += "<li onClick=\"showDoc('anuncios/"+encodeURI(fileName)+"')\"><img src=\"anuncios/img/"+encodeURI(fileName).replace(".pdf",".jpg")+"\" /></li>";
+            //html += "<li onClick=\"showDoc('anuncios/"+encodeURI(fileName)+"')\"><span class=\"title\">"+fileNameSplitted[0]+"</span>&nbsp;&nbsp;<span class=\"subtitle\">"+fileNameSplitted[1].replace(".pdf","")+"</span></li>";
             //listing.push(new File(fileNameSplitted[0],fileNameSplitted[1]),fileName);
         }
     }
     
+    $("#nouveautes-list").html(html);
+}
+
+function fileListPromo(){
+    fctBrowseDirectory("material_promocional") ;
+    var html = "";
+    if (env_Browse_Directory == 'Arquivo não encontrado'){
+        console.log(env_Browse_Directory);
+    }
+    else{
+        var jsonRetour = decodeURI(env_Browse_Directory) ;
+        var jsArray = JSON.parse(jsonRetour);
+        for(var i = 0 ; i < jsArray.FILES.length ; i++){
+            var fileName = jsArray.FILES[i].FILE;
+            var fileNameSplitted = fileName.split(separator);
+            html += "<li onClick=\"showDoc('material_promocional/"+encodeURI(fileName)+"')\"><img src=\"material_promocional/img"+encodeURI(fileName).replace(".pdf",".jpg")+"\" /></li>";
+            //html += "<li onClick=\"showDoc('anuncios/"+encodeURI(fileName)+"')\"><span class=\"title\">"+fileNameSplitted[0]+"</span>&nbsp;&nbsp;<span class=\"subtitle\">"+fileNameSplitted[1].replace(".pdf","")+"</span></li>";
+            //listing.push(new File(fileNameSplitted[0],fileNameSplitted[1]),fileName);
+        }
+    }
+
     $("#nouveautes-list").html(html);
 }
 
