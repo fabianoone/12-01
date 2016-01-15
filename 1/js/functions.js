@@ -14,17 +14,19 @@ var env_Browse_Directory = "" ;
 var separator = "_"; //Ca sera le séparateur à changer
 
 function fileListNouveautes(){
-    fctBrowseDirectory("novidades") ;
+    fctBrowseDirectory("anuncios") ;
     var html = "";
     if (env_Browse_Directory == 'Arquivo não encontrado'){
+        console.log(env_Browse_Directory);
     }
     else{
         var jsonRetour = decodeURI(env_Browse_Directory) ;
-        var jsArray = JSON.parse(jsonRetour);
+        var jsArray = JSON.stringify(jsonRetour);
+        alert(jsArray);
         for(var i = 0 ; i < jsArray.FILES.length ; i++){
             var fileName = jsArray.FILES[i].FILE;
             var fileNameSplitted = fileName.split(separator);
-            html += "<li onClick=\"showDoc('novidades/"+encodeURI(fileName)+"')\"><span class=\"title\">"+fileNameSplitted[0]+"</span>&nbsp;&nbsp;<span class=\"subtitle\">"+fileNameSplitted[1].replace(".pdf","")+"</span></li>";
+            html += "<li onClick=\"showDoc('anuncios/"+encodeURI(fileName)+"')\"><span class=\"title\">"+fileNameSplitted[0]+"</span>&nbsp;&nbsp;<span class=\"subtitle\">"+fileNameSplitted[1].replace(".pdf","")+"</span></li>";
             //listing.push(new File(fileNameSplitted[0],fileNameSplitted[1]),fileName);
         }
     }

@@ -33,13 +33,17 @@ function subDir ()
 
 function abreMenu() {
     $('#boxxx').toggle('slide');
-    $('.mini-submenu').hide();
+    $('.mini-submenu').toggle();
 
 } 
 
 function fechaMenu(){
     $('#boxxx').hide();
-    $('.mini-submenu').fadeIn();	
+    $('.mini-submenu').fadeIn();
+
+    //$("#mouseOut").click(function(){
+    //    $("#boxxx").hide();
+    //});
 }
 function goBack() {
     window.history.back();
@@ -51,7 +55,7 @@ function goHome(){
 
 function appMenu(){
 
-    var myContentMenu = '<nav class="navbar col-sm-6"><div class=""><div id="back-link" class="col-sm-1"><a class="back-link-btn" onclick="goBack()" style="display: block;cursor: pointer;float: left;"> <span class="back-link-btn fa fa-arrow-circle-o-left"></span></a> </div> <div class="col-sm-6 sidebar"> <div class="mini-submenu" onclick="abreMenu()"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </div> <div id="boxxx" class="list-group menu-box"> <span class="list-group-item active">Título da aba <span onclick="fechaMenu()" class="pull-right" id="slide-submenu"> <i class="fa fa-times"></i> </span> </span> <div id="header_menu" class="produtos"> </div> </div> </div> </div></nav>';
+    var myContentMenu = '<div id="mouseOut" onclick="fechaMenu();"> <nav class="navbar col-sm-6"><div class=""><div id="back-link" class="col-sm-1"><a class="back-link-btn" onclick="goBack()" style="display: block;cursor: pointer;float: left;">  <span class="back-link-btn fa fa-arrow-circle-o-left"></span></a> </div> <div class="col-sm-6 sidebar"> <div class="mini-submenu" onclick="abreMenu()"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </div> <div id="boxxx" class="list-group menu-box"> <span class="list-group-item active">Título da aba <span onclick="fechaMenu()" class="pull-right" id="slide-submenu"> <i class="fa fa-times"></i> </span> </span> <div id="header_menu" class="produtos"> </div> </div> </div> </div></nav>';
 
     document.getElementById("appMenu").innerHTML = myContentMenu;
     //appMenuList();

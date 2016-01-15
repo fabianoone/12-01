@@ -298,15 +298,8 @@ input#pesquisa {
 		 position:absolute;
 	 }
 
-	 #produits-list-container{
-		 left:0px;
-		 top:249px;
-		 width:323px;
-		 height:249px;
-		 position:absolute;
-	 }
 
-	 #nouveautes-list{
+	 #c-list{
 		 list-style-type:none;
 		 margin:0;
 		 padding:0;
@@ -599,6 +592,10 @@ a.list-group-item:hover {
 	padding-top: 0;
 	padding-bottom: 0;
 }
+ div#mouseOut {
+	 height: 768px;
+	 width: 1024px;
+ }
 .menu-button {
     color: #fff;
     border-radius: 50%;
