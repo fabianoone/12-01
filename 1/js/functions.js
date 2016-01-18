@@ -46,7 +46,7 @@ function fileListPromo(){
         for(var i = 0 ; i < jsArray.FILES.length ; i++){
             var fileName = jsArray.FILES[i].FILE;
             var fileNameSplitted = fileName.split(separator);
-            html += "<li onClick=\"showDoc('material_promocional/"+encodeURI(fileName)+"')\"><img src=\"material_promocional/img"+encodeURI(fileName).replace(".pdf",".jpg")+"\" /></li>";
+            html += "<li onClick=\"showDoc('material_promocional/"+encodeURI(fileName)+"')\"><img src=\"material_promocional/img/"+encodeURI(fileName).replace(".pdf",".jpg")+"\" /></li>";
             //html += "<li onClick=\"showDoc('anuncios/"+encodeURI(fileName)+"')\"><span class=\"title\">"+fileNameSplitted[0]+"</span>&nbsp;&nbsp;<span class=\"subtitle\">"+fileNameSplitted[1].replace(".pdf","")+"</span></li>";
             //listing.push(new File(fileNameSplitted[0],fileNameSplitted[1]),fileName);
         }

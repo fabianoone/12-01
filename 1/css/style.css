@@ -131,8 +131,6 @@ input#pesquisa {
 
 
 
-
-
 /* Globals type styling */
    
  h1, h2, h3, h4, h5, h6, p, label, .btn, a{
@@ -296,6 +294,9 @@ input#pesquisa {
 		 width:100%;
 		 height:249px;
 		 position:absolute;
+		 max-height: 440px;
+		 height: 768px;
+		 overflow: scroll;
 	 }
 	 ul#nouveautes-list {
 		 width: 100%;
@@ -515,7 +516,7 @@ button{
 /* Toggle Menu */
 .list-group.menu-box {
     display: none;
-    margin-left: -55px;
+    margin-left: -75px;
 }
 span.list-group-item.active {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#044788+0,007cf1+50,044788+100 */
@@ -789,7 +790,8 @@ a.list-group-item:hover {
 }
 .cor-txt.media-body > p {
     margin-bottom: 2px;
-}
+	 font-size: 12px;
+ }
 .site-media {
     margin-top: 25px;
 }
@@ -872,7 +874,7 @@ div#hero-bloc {
     background: url(../img/logo.png);
     background-size: 22%;
     background-repeat: no-repeat;
-    background-position: 50% 99%;
+    background-position: 50% 97%;
 }
 
 }
