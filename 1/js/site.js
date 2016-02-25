@@ -7,6 +7,14 @@ function startApp ()
 {
     init_body();
     subDir();
+
+
+    // Adiciona Scrollbar quando necessário na div #indicacao
+    $(function()
+    {
+      $('#indicacao').jScrollPane();
+    });
+    // Fim ./ Adiciona Scrollbar quando necessário na div #indicacao
 }
 
 
@@ -37,7 +45,7 @@ function abreMenu() {
 
     $('#mouseOut').show();
 
-} 
+}
 
 function fechaMenu(){
     $('#boxxx').hide();
